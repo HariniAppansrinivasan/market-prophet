@@ -4,12 +4,12 @@
 Clone this repo.
 
 ```
-conda create -n prophet python=3 pandas numpy scikit-learn matplotlib plotly
+conda create -n prophet python=3 pandas numpy scikit-learn statsmodels matplotlib plotly seaborn -y
 conda activate prophet
-conda install -c conda-forge jupyterlab
-conda install -c anaconda ephem
-conda install -c conda-forge pystan
-conda install -c conda-forge fbprophet
+conda install -c conda-forge jupyterlab ipywidgets -y
+conda install -c anaconda ephem -y
+conda install -c conda-forge pystan -y
+conda install -c conda-forge fbprophet -y
 ```
 
 Run `jupyter notebook`
